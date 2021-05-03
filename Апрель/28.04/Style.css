@@ -1,0 +1,201 @@
+/* a{
+	color:red;
+	text-decoration:none;
+}
+.block{
+	width:100px;
+	height:300px;
+	background-color:black;
+	display:none;
+}
+a:hover{
+	color:blue;
+	text-decoration:underline;
+}
+a:hover .block{
+	display:block;
+} */
+
+/* li:last-child{
+	color:red;
+} */
+/* 
+li:nth-child(2n) { 
+	color:red;
+} */
+
+/* input[type=text]:focus {
+	color:gold;
+	background-color:black;
+	outline: 2px solid red;
+}
+input[type=checkbox]:checked + span {
+	color:blue;
+	font-size:24px;
+} */
+
+/* span::before {
+	content: '123';
+}
+
+span::after {
+	content: '321';
+} */
+
+/* .container{
+	width:500px;
+	height:500px;
+	border:1px solid black;
+}
+
+.block{
+	width:100px;
+	height:100px;
+	background-color:red;
+}
+.container:hover  {
+	background-color:blue;
+	position: relative;
+}
+.container:hover .block {
+	width:200px;
+	height:200px;
+	background-color:yellow;
+	position: absolute;
+	left:300px;
+	top:300px;
+} */
+/* .Bigcircle{
+	width:600px;
+	height:600px;
+	margin:auto;
+	position:relative;
+	border-radius: 50%;
+	background-color:yellow;
+}
+.Smallcircle{
+	width:300px;
+	height:300px;
+	position:absolute;
+	left:150px;
+	top:150px;
+	border-radius: 50%;
+	background-color:black;
+}
+
+.Bigcircle:hover .Smallcircle{
+	background-color:yellow;
+	display:block;
+}
+.Bigcircle:hover {
+	background-color:black;
+} */
+
+/* body{background-color:black;}
+
+
+ul{
+	width:200px;
+	height:200px;
+	margin: auto;
+	margin-top:200px;
+	padding:30px;
+	background-color:white;
+}
+li {
+	list-style-type: none;
+	margin:10px;
+}
+.Borddd{
+	border: 1px solid black;
+}
+
+li:hover {
+	background-color:red;
+}
+li:hover span {
+	color:white;
+	font-weight:bolder;
+} */
+/* body{background-color:black;}
+
+div {width:1000px;
+margin:auto;
+margin-top:100px;
+background-color:white;
+padding:20px;}
+
+h1 {
+	background-color:blue;
+	text-align:center;
+}
+span{
+	font-weight:bolder;
+	white-space:pre;
+	position:relative;
+}
+
+.Google::before {
+	content: '\A0\A0\A0\A0\A0';
+  width: 20px;
+  background-image: url("http://s1.iconbird.com/ico/2013/6/280/w512h5121371488822translate512.png");
+  background-size: 20px 20px;
+}
+.Yandex::before {
+		content: '\A0\A0\A0\A0\A0';
+  width: 20px;
+  background-image: url("https://pbs.twimg.com/profile_images/618060028159856641/X-byv0FI_400x400.jpg");
+  background-size: 20px 20px;
+}
+.Tru::before {
+		content: '\A0\A0\A0\A0\A0';
+  width: 20px;
+  background-image: url("https://media.istockphoto.com/vectors/russian-language-sign-icon-ru-translation-vector-id518094694");
+  background-size: 20px 20px;
+}
+.Meta::before {
+	content: '\A0\A0\A0\A0\A0';
+  width: 20px;
+  background-image: url("https://img2.freepng.ru/20180614/sht/kisspng-computer-icons-translation-interpreter-language-in-ru-paul-5b22cc5ddcc625.0904102815290071979043.jpg");
+  background-size: 20px 20px;
+	} */
+
+body{background-color:black;}
+	
+div{
+	width:660px;
+	height:50px;
+	margin:auto;
+	margin-top:200px;
+	background-color:white;
+	padding:10px;
+}
+
+
+p{
+	height:20px;
+	margin:2px;
+	background-color:#505034;
+	display:inline-block;
+	padding:15px;
+	color:white;
+	font-weight:bolder;
+}
+
+input{
+	background-color:#505034;
+	border: 0px solid black;
+	color:white;
+	font-weight:bolder;
+}
+
+p:hover {
+	background-color:#DBC026;
+}
+p:hover input{
+	background-color:#DBC026;
+}
+
+p:focus {
+	background-color:#DBC026;
+}

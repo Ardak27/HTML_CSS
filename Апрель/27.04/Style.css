@@ -1,0 +1,41 @@
+
+/* input[type=text]:focus {
+	color:gold;
+	background-color:black;
+	outline: 2px solid red;
+}
+input[type=checkbox]:checked + span {
+	color:blue;
+	font-size:24px;
+} */
+
+/* span::before {
+	content: '123';
+}
+
+span::after {
+	content: '321';
+} */
+a{
+	position:relative;
+	text-decoration:none;
+	color:black;
+}
+
+
+a::before {
+	content:'';
+	display:block;
+	position:absolute;
+	background-color:red;
+	width:0%;
+	height:20px;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: width 1s linear;
+}
+
+a:hover::before{
+	width:100%;
+}

@@ -1,0 +1,171 @@
+/* 
+
+.block{
+	width:500px;
+	height:200px;
+	margin: auto;
+	margin-top:200px;
+	background-color:white;
+	border:1px solid black;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+	transition: box-shadow 2s linear;
+}
+.block:hover {
+	box-shadow: 10px 10px 5px 10px rgba(148,26,26,1);
+}
+
+.block:hover .textsh{
+	text-shadow: 7px 0px 2px rgba(102,204,25,1), -7px 0px 2px rgba(148,26,26,1);
+}
+
+
+
+p {
+	margin-left:100px;
+	margin-top: 40px;
+}
+.textsh{
+	font-size:50px;
+	text-shadow: 0px 0px 0px rgba(148,26,26,1);
+	transition: text-shadow 2s linear;
+}
+ */
+ 
+ /* 
+ img{
+	 float:right;
+ }
+ p{
+	 text-align:justify;
+ } */
+ 
+ 
+/*  .grad{
+	 width:300px;
+	 height:100px;
+	 margin:auto;
+	 margin-top:200px;
+	 border: 1px solid black;
+	 background: linear-gradient(90deg, #6FDD14 10%, #1417DD 70%, #F5006C 20%);
+ } */
+ 
+
+ 
+ div{
+	 width:50%;
+	 margin: auto;
+	 padding: 20px;
+	 padding-bottom:50px;
+	 margin-bottom:20px;
+	 border: 1px solid black;
+	 position: relative;
+ }
+ 
+ .Menu{
+	 width:15%;
+	 height: 33.48%;
+	 position: fixed;
+	 left: 5.25%;
+	 background-color:#D9B438;
+ }
+ 
+ .Menup{
+	 margin:auto;
+	 padding-left:10px;
+	 padding-top: 8px;
+	 width: 90%;
+	 height:13.6%;
+	 border:1px solid black;
+ }
+ 
+ a{
+	 color: blue;
+	 text-decoration: none;
+	 transition:  all 0.5s linear;
+ }
+ 
+ 
+  .Menup1:hover {
+	 background-color:white;
+ }
+  .Menup2:hover {
+	 background-color:white;
+ }
+  .Menup3:hover {
+	 background-color:white;
+ }
+  .Menup4:hover {
+	 background-color:white;
+ }
+  .Menup5:hover {
+	 background-color:white;
+ }
+  .Menup6:hover {
+	 background-color:white;
+ }
+ 
+ .Menup1:hover .MenuHov1{
+	 margin-left: 20px;
+ }
+ .Menup2:hover .MenuHov2{
+	 margin-left: 20px;
+ }
+ .Menup3:hover .MenuHov3{
+	 margin-left: 20px;
+ }
+ .Menup4:hover .MenuHov4{
+	 margin-left: 20px;
+ }
+ .Menup5:hover .MenuHov5{
+	 margin-left: 20px;
+ }
+ .Menup6:hover .MenuHov6{
+	 margin-left: 20px;
+ }
+ 
+ 
+ 
+ h1{
+	 margin:0;
+	 margin-bottom:10px;
+ }
+ .text {
+	 margin:0;
+	 text-align:justify;
+	 line-height:30px;
+	 transition:  all 0.5s linear;
+ }
+ .Link{
+	 margin:30px;
+	 position:absolute;
+	 right:0;
+	 bottom:0;
+ }
+ 
+ img{
+	 float:left;
+	 margin: 10px;
+	 margin-top:0;
+ }
+ 
+ footer{
+	 height:120px;
+	 background-color:black;
+	 text-align:center;
+ }
+ .ftext{
+	 width:160px;
+	 margin:auto;
+	 line-height:35px;
+	 color:#DCAF16;
+ }
+ .Copyrith:before{
+	 content:'\A9'
+ }
+ 
+ .Linktrans:hover {
+	 color:#B962E5;
+ }
+ 
+ 

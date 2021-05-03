@@ -1,0 +1,88 @@
+/*div{ width:100px;
+	min-width:400px;
+	max-width:500px;
+     height:100px;
+	 background-color:#000;
+	 border: 1px solid #000;
+	 display:inline-block;
+	 } */
+
+
+
+/* div{
+	text-align:center;
+font-size:30px;
+font-weight: bolder;
+}
+
+hr{color:white; 
+	width:200px;
+	align:center;
+}
+
+.Or{color:#DCC21D;}
+.Or1{color:yellow;}
+.Or2{color:green;}
+.Or3{color:aqua;}
+.Or4{color:#9143A8;}
+.Or5{color:#C4811B;}
+.Or6{color:red;}
+*/
+/*
+div{
+	padding-left:500px;
+}
+
+.Sait{
+	
+}
+
+span{}
+.Blue{color:blue;
+text-decoration-line:underline;}
+.CCC{
+	color:red;
+}*/
+
+/*
+div{
+	margin:auto;
+	margin-top:70px;
+	width:360px;
+	text-align:justify;
+}
+h1{color:green;
+margin:10px;
+}
+h2{color:green;
+margin:10px;}
+.Cursiv{font-style:italic;}
+.Vse{font-weight:bolder;}
+.UpperC{text-transform: uppercase;}
+a{padding-left:100px;}*/
+
+/*div{
+	margin:auto;
+	margin-top:70px;
+	width:300px;
+	text-align:left;
+}
+h2{color:green;
+margin:10px;
+margin-left:50px;}
+
+ul{
+margin:10px;}
+a{color:black;}*/
+
+div{
+	background-color:
+	margin:50px;
+	text-align:justify;
+	border-left: 2px dotted green;
+	width:300px;
+	padding:0px;
+	padding-left:20px;
+}
+span{font-weight:bolder;}
+p{text-indent:10px;}

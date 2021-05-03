@@ -1,0 +1,18 @@
+.bgYYY{ background-color:yellow; width: 500px; text-indent:10px; text-align:justify;}
+.RR{ color:red; text-align:center;}
+.RRR{ color:red; text-decoration:underline; text-decoration-color:red; }
+.YYY{ color:yellow; text-decoration:underline; text-decoration-color:yellow; }
+.GGG{ color:green;}
+
+.Goldcolor{background-color:#DCC21D; width: 500px; font-style:italic; text-align:justify; }
+
+.Center{ text-align:center;}	 
+
+.ColorBlack{background-color:black;
+			width:150px;
+			background-size: cover;
+			text-decoration:underline;}
+.Cursiv{ font-style:italic; color:blue; text-decoration:underline; text-decoration-color:blue;}
+.php{ text-transform:uppercase; font-weight:bolder; }
+.JavaScript{font-weight:bolder;}
+.script{font-weight:bolder; color:blue;}

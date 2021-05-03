@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Таблицы</title>
+   <meta charset="utf-8">
+ </head>
+
+<body>
+<h1>Анкета</h1>
+<form action='action.html' method='POST'>
+
+  <p><label>Фамилия: <input type='text'></label> <label>Имя: <input type='text' ></label></p>
+  
+  <p> Образование: <label><input type='checkbox' checked>Среднее</label> <label><input type='checkbox'>Высший</label><br></p>
+  
+    <p> Ваш пол: <label><input type='radio' name='pol' checked value='men'>Мужской </label>   
+                 <input id='radio' type='radio' name='pol' value='women'><label for='radio'>Женский </label> 
+    </p>
+  
+  
+  <p>
+	<label>Зарплата: <input type='number'</label><br>
+  </p>
+  
+  <p>
+	<textarea cols='50' rows='4' placeholder="Введите свой текст"></textarea>
+  </p>
+  
+  <p>Страна
+  <select>
+  <option selected>Россия </option>
+  <option>Казахстан </option>
+  <option>США </option>
+  <option>Германия </option>
+  </select>
+  </p>
+  
+  <table border='0'>
+  <tr>
+    <td width='450' align="center"><p>
+  <label><input type='submit'></label>
+  <label><input type='reset'></label><br>
+  </p></td>
+  </tr>
+</table>
+</form>
+
+
+<h1>Анкета 2</h1>
+<form action='action.html' method='POST'>
+<table>
+ <tr>
+  <td>Фамилия, имя, отчество</td> 
+  <td width='400'><input type='text' value='Иванов Федор Иванович'></td>
+ </tr>
+ 
+ <tr>
+   <td>Адрес</td> 
+   <td><textarea cols='40' rows='4' >С-Петербург 3-я ул.Строителей 2 кв.5</textarea></td> 
+ </tr>
+ 
+  <tr>
+   <td>E-mail</td> 
+   <td><input type='email' value='gena1975@mail.ru'></td> 
+ </tr>
+ 
+   <tr>
+   <td>Пол</td> 
+   <td><select>
+  <option selected>Мужской </option>
+  <option>Женский </option>
+  </select></td> 
+ </tr>
+ 
+  <tr>
+   <td>Номер карты покупателя</td> 
+   <td><input type='number' value='123123123'></td> 
+ </tr>
+ </table>
+ 
+ <table border='0'>
+  <tr>
+    <td width='350' align="center"><p>
+  <label><input type='submit'></label>
+  <label><input type='reset'></label><br>
+  </p></td>
+  </tr>
+</table>
+</form>
+
+
+<h1>Анкета 3</h1>
+<form action='action.html' method='POST'>
+<p>Введите имя: <br>
+<input type='text'></p>
+
+<p>Форма обучения: <br>
+<label><input type='radio' name='pol' value='Ochno'>oчно</label> <br> <label><input type='radio' name='pol' value='Zaochno'>заочно</label></p>
+
+<p>Требуется общежитие: <br>
+<label><input type='checkbox'>Да</label></p>
+
+<p>Выберите курс: <br>
+<textarea cols='9' rows='5' >ASP NET<br>PHP<br>RUBY<br>Python<br>Java</textarea></p>
+
+<p>Краткий комментарий: <br>
+<textarea cols='20' rows='2' ></textarea></p>
+
+<input type='submit' value='Выбрать'>
+</form>
+
+<h1>Регистрация почтового ящика</h1>
+<form action='action.html' method='POST'>
+<fieldset>
+<legend>Персональная информация</legend>
+<p><label>Фамилия: <input type='text'></label><br><label>Имя: <input type='text' ></label></p>
+</fieldset>
+
+<fieldset>
+<legend>Информация о почтовом ящике</legend>
+<p><label>Адрес: <input type='text'></label><br><label>Пороль: <input type='text' ></label> <br><label>Подтверждение пороля: <input type='text'></label> </p>
+</fieldset>
+
+<fieldset>
+<legend>Дополнительные сведение</legend>
+<p>
+Желаете получить рекламные рассылки? <label>Да<input type='radio' name='recl'  value='yes'></label> <label>Нет<input type='radio' name='recl' checked value='no'></label><br> 
+Желаете получить прогноз погоды на каждый день? <label>Да<input type='radio' name='whether'  value='yes'></label> <label>Нет<input type='radio'  name='whether' checked value='no'></label>
+ </p>
+</fieldset><br> 
+
+<input type='submit' value='Регистация'>
+<input type='reset' value='Сброс'>
+</form>
+
+<h1>Форма заявки на работу в зоопарке</h1>
+<p><i>Пожалуйста, заполните форму. Обязательные поля помечены *</i> </p>
+
+<form action='action.html' method='POST'>
+<fieldset>
+<legend>Контактная информация</legend>
+<table>
+<tr> <td width='200'>Имя*</td> <td width='400'><input type='text' size='30' required></td></tr>
+<tr> <td>Телефон</td> <td><input type='tel' size='30'  ></td></tr>
+<tr> <td>E-mail</td> <td><input type='email' size='30'  required></td></tr>
+</table>
+</fieldset><br> 
+
+<fieldset>
+<legend>Персональная информация</legend>
+<table>
+<tr> <td width='200'>Возраст*</td> <td width='400'><input type='number' size='30' required></td></tr>
+<tr> <td>Пол</td> <td><select>
+  <option >Мужской </option>
+  <option selected>Женский </option>
+  </select></td></tr>
+<tr> <td>Перечислите личные качества </td> <td><textarea cols='30' rows='5'></textarea></td></tr>
+</table>
+</fieldset><br> 
+
+
+<fieldset>
+<legend>Выберите ваших любимых животных</legend>
+<table>
+<tr> <td width='100'> <label><input type='checkbox' >Зебра</label></td> 
+     <td width='100'> <label><input type='checkbox' >Кошак</label></td>
+	 <td width='100'> <label><input type='checkbox' >Анаконда</label></td>
+	 <td width='100'> <label><input type='checkbox' >Человек</label></td>
+</tr>
+<tr> <td width='100'> <label><input type='checkbox' >Слон</label></td> 
+     <td width='100'> <label><input type='checkbox' >Антилопа</label></td>
+	 <td width='100'> <label><input type='checkbox' >Голубь</label></td>
+	 <td width='100'> <label><input type='checkbox' >Краб</label></td>
+</tr>
+</table>
+</fieldset><br> 
+
+<input type='submit' value='Отправить информацию'>
+</form>
+
+<h1>Анкета 6</h1>
+<form action='action.html' method='POST'>
+
+<table>
+<tr> <td width='150'>1.Ваше имя</td> <td width='400'><input type='text' value='Irina' size='30' required></td></tr>
+<tr> <td>2.Пароль</td> <td><input type='password' size='30' value='11111111' ></td></tr>
+<tr> <td>3.Пол</td> <td><label>Мужской<input type='radio' name='pol'  value='men'></label> <label>Женский<input type='radio' name='pol' checked value='women'></label></td></tr>
+<tr> <td>4.Ваши увлечение</td>  <td><label>Музыка<input type='checkbox' ></label> <label>Видео<input type='checkbox' checked></label> <label>Рисование<input type='checkbox' ></label>  </td></tr>
+<tr> <td>5.Ваш город</td> <td><select><option selected>Нижний Тагил </option><option >Караганда </option></select></td></tr>
+<tr> <td>6.Кратко о себе</td> <td><textarea cols='30' rows='5'>Краткое информация о ваших хобби</textarea></td></tr>
+<tr> <td>7.Аватар</td> <td><input type='image' size='30' value='Обзор...' ></td></tr>
+</table>
+
+<p>8.<input type='reset' value='Сброс'>
+9.<input type='submit' value='Подтверждаю'>
+10.<input type='button' value='Кликни по мне просто'></p>
+</form>
+
+
+</body>
+</html>
+
+<!--
+Нужные теги: 
+-   <p><label>Файл <input type='file' ></label></p>
+-  <textarea cols='40' rows='4' placeholder="С-Петербург 3-я ул.Строителей 2 кв.5"></textarea>
+
+
+
+-->
