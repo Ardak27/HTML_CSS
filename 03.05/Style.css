@@ -1,0 +1,16 @@
+
+ 
+.container{
+	height:400px;
+	border: 1px solid black;
+	display:flex; 
+	justify-content: space-evenly;
+	
+	align-items: flex-start;
+	
+}
+
+.block{
+	border:1px solid red;
+}
+
