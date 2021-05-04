@@ -1,0 +1,73 @@
+/* * {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+ 
+.container{
+	height:400px;
+	border: 1px solid black;
+		display:flex; 
+	justify-content: center; /*горизонтальное выравнивание
+	align-content: center; /*вертикальное выравнивание при не менее двуч строк
+    flex-wrap: wrap;    /* перенос на другую строку  
+	flex-direction: row; /* выбор базовой линии  
+}*/
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	height:300px;
+	display:flex;
+/* 	justify-content:space-evenly;
+	align-items: center; */
+	border: 1px solid black;
+	
+}
+
+.block{
+	display:flex;
+	height:inherit;
+	flex-basis: 25%;
+	border: 1px solid red;
+	transition: flex-basis .5s ease;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.block:hover {
+	flex-basis: 75%;
+}
+
+.bl1{
+	background-image: url("https://gryzha.guru/wp-content/uploads/2018/05/frykti.jpg");
+}
+.bl2{
+	background-image: url("https://avatars.mds.yandex.net/get-zen_doc/192582/pub_593ba330d7d0a622daebb1ad_593ba362d7d0a622daebb1ae/scale_1200");
+}
+.bl3{
+	background-image: url("http://allday1.com/imagedb/27/d/234729329c16aa2901032a6cc498e.jpg");
+}
+.bl4{
+	background-image: url("https://ok-doctor.xyz/wp-content/uploads/2017/04/fcf181424b7c0b6afec66d48c47e27a0.jpeg");
+}
+
+a{
+	display: block;
+	height:100%;
+	width:100%;
+	text-align:center;
+	text-decoration: none;
+	background-color: transparent;
+	padding-top:135px;
+}
+
+span{
+	background-color: transparent;
+	font-size:22px;
+	color: black;
+	font-weight: bolder;
+	text-shadow: 0px 0px 10px  rgba(80,251,0, 100%);
+}
+
+
