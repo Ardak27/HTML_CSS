@@ -1,0 +1,144 @@
+
+/* .wrapper{
+	height:100vh;
+	perspective: 500px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.card{
+	width:200px;
+	height:300px;
+	position: relative;
+	
+}
+
+.block{
+	width:100%;
+	height:100%;
+	border:1px solid red; 
+	position: absolute;
+	backface-visibility: hidden;
+	transition: all 0.5s ease;
+}
+
+.front{
+	background-image:url("https://edisonprint.ru/assets/images/products/811/small/h0317.jpg");
+}
+.back{
+	transform: rotateY(180deg);
+	position: relative;
+}
+img{
+	opacity:0.3;
+}
+span{
+	position: absolute;
+	top:45%;
+	left: 15px;
+}
+
+.card:hover .front{
+	transform: rotateY(180deg);
+} 
+
+.card:hover .back{
+	transform: rotateY(360deg);
+}  */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+nav{
+	width: 100%;
+	padding-right: 50px;
+	position: relative;
+}
+
+nav::before {
+	content:'';
+	display: block;
+	width:100%;
+	height: 50px;
+	background-color: #000;
+	position:absolute;
+	z-index: -1;
+	left:0;
+	
+}
+
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav li a{
+	padding: 0 10px;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	height: 50px;
+	line-height:50px; 
+}
+
+nav li a:hover {
+	background-color: gold;
+	color: #000;
+}
+
+.burger{
+	width:40px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 20%;
+	position:absolute;
+	right: 80px;
+	top:5px;
+	background: url("https://i.pinimg.com/736x/ee/c0/71/eec071442e9a1b8e017c5a7c1853b880.jpg") center/cover;
+	display: none;
+	
+}
+
+.burger:hover {
+	background: url("https://otvet.imgsmail.ru/download/213636533_183eb6258441109895f686b07d0782da_800.jpg") center/cover;
+}
+
+
+nav ol{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	background-color: red;
+	position: absolute;
+	top: -200px;
+	width: 100%;
+	transition: top 1s ease;
+	z-index:-2;
+	/* display: none; */ 
+}
+
+.burger:hover + ol {
+	/* display: block; */
+	top: 50px;
+} 
+
+
+@media screen and (max-width:767px){
+	nav ul{
+		display: none;
+	}
+	.burger{
+		display: block;
+	}
+}

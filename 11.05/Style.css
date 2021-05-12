@@ -1,0 +1,50 @@
+
+.wrapper{
+	height:100vh;
+	perspective: 500px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.card{
+	width:200px;
+	height:300px;
+	/* border:1px solid red;  */
+	position: relative;
+	
+}
+
+.block{
+	width:100%;
+	height:100%;
+	border:1px solid red; 
+	position: absolute;
+	backface-visibility: hidden;
+	transition: all 0.5s ease;
+}
+
+.front{
+	background-image:url("https://edisonprint.ru/assets/images/products/811/small/h0317.jpg");
+}
+.back{
+	/* background-image:url("https://sun9-67.userapi.com/impg/c857628/v857628544/1b4fc2/Vp-Maekiyzc.jpg?size=200x300&quality=96&sign=5ab2c156028bceefa699033c0f92aa13&type=album"); */
+	transform: rotateY(180deg);
+	position: relative;
+}
+img{
+	opacity:0.3;
+}
+span{
+	position: absolute;
+	top:45%;
+	left: 15px;
+}
+
+.card:hover .front{
+	transform: rotateY(180deg);
+} 
+
+.card:hover .back{
+	transform: rotateY(360deg);
+} 
