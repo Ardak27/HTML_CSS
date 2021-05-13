@@ -81,38 +81,50 @@ nav ul{
 
 nav ul li{
 	display: inline-block;
+/* 	 position:relative;  */
+}
+.forli{
+	width:33.33%;
+	height: 100%;
+	/* position: absolute;
+	top: 50px; */
+}
+.forli:nth-child(1){
+	transition: all 1s ease;
+}
+.forli:nth-child(2){
+	transition: all 1s ease 0.5s;
+}
+.forli:nth-child(3){
+	transition: all 1s ease 1s;
 }
 
 nav li a{
 	padding: 0 10px;
 	text-decoration: none;
 	color: #fff;
+	/* position: absolute;
+	top:0;
+	left:0; */
 	display: block;
 	height: 50px;
 	line-height:50px; 
 }
 
-nav li a:hover {
-	background-color: gold;
+ nav li a:hover {
 	color: #000;
-}
+} 
 
-.burger{
-	width:40px;
-	height: 40px;
-	border: 1px solid #fff;
-	border-radius: 20%;
-	position:absolute;
-	right: 80px;
-	top:5px;
-	background: url("https://i.pinimg.com/736x/ee/c0/71/eec071442e9a1b8e017c5a7c1853b880.jpg") center/cover;
-	display: none;
-	
+/* nav li a:hover .forli:nth-child(1){
+	background-color: gold;
 }
+nav li a:hover .forli:nth-child(2){
+	background-color: gold;
+}
+nav li a:hover .forli:nth-child(3){
+	background-color: gold;
+} */
 
-.burger:hover {
-	background: url("https://otvet.imgsmail.ru/download/213636533_183eb6258441109895f686b07d0782da_800.jpg") center/cover;
-}
 
 
 nav ol{
@@ -124,12 +136,10 @@ nav ol{
 	top: -200px;
 	width: 100%;
 	transition: top 1s ease;
-	z-index:-2;
-	/* display: none; */ 
+	z-index:-2; 
 }
 
 .burger:hover + ol {
-	/* display: block; */
 	top: 50px;
 } 
 
@@ -138,7 +148,7 @@ nav ol{
 	nav ul{
 		display: none;
 	}
-	.burger{
-		display: block;
-	}
+	/* .burger{
+		display: flex;
+	} */
 }
