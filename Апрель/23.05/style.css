@@ -1,0 +1,81 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.wrap{
+	width:200px;
+	height:300px;
+	position: absolute;
+	top:30px;
+	left:0;
+	border: 1px solid black;
+}
+
+.card{
+	width:200px;
+	height:300px;
+	position: absolute;
+	top:200px;
+	left:300px;
+	transform-origin: 10% 90%;
+	transition: all 0.5s linear;
+}
+
+label{
+	display: block;
+	width:inherit;
+	height:inherit;
+}
+input{
+	opacity: 0;
+}
+
+.mast1{
+	background-color:blue;
+}
+.mast2{
+	background-color:yellow;
+}
+.mast3{
+	background-color:green;
+}
+.mast4{
+	background-color:gray;
+}
+.mast5{
+	background-color:red;
+}
+
+
+
+body:hover  .mast1{
+	transform: rotateZ(-20deg);
+}
+body:hover  .mast2{
+	transform: rotateZ(-10deg);
+}
+body:hover  .mast4{
+	transform: rotateZ(10deg);
+}
+body:hover  .mast5{
+	transform: rotateZ(20deg);
+}
+
+
+input[id="cc1"]:checked ~ .mast1{
+	transform:  rotateZ(-20deg) translateY(-30px);
+}
+input[id="cc2"]:checked ~ .mast2{
+	transform: rotateZ(-10deg) translateY(-30px);
+}
+input[id="cc3"]:checked ~ .mast3{
+	transform: translateY(-30px);
+}
+input[id="cc4"]:checked ~ .mast4{
+	transform: rotateZ(10deg) translateY(-30px);
+}
+input[id="cc5"]:checked ~ .mast5{
+	transform: rotateZ(20deg) translateY(-30px);
+}
