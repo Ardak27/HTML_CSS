@@ -1,81 +1,225 @@
 *{
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
-.wrap{
-	width:200px;
-	height:300px;
-	position: absolute;
-	top:30px;
-	left:0;
-	border: 1px solid black;
+.header{
+	width: 100%;
+	height:670px;
+	background: url("img/NY.png") no-repeat center/cover;
+	position: relative;
+	z-index: 0;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
 }
 
-.card{
-	width:200px;
-	height:300px;
-	position: absolute;
-	top:200px;
-	left:300px;
-	transform-origin: 10% 90%;
-	transition: all 0.5s linear;
-}
 
-label{
+.header:before {
+	content: '';
 	display: block;
-	width:inherit;
-	height:inherit;
-}
-input{
-	opacity: 0;
-}
-
-.mast1{
-	background-color:blue;
-}
-.mast2{
-	background-color:yellow;
-}
-.mast3{
-	background-color:green;
-}
-.mast4{
-	background-color:gray;
-}
-.mast5{
-	background-color:red;
+	width: 100%;
+	height:100%;
+	background: url("img/NY_overlay.png") no-repeat center/cover;
+	position: absolute;
+	z-index: -1;
 }
 
+.nav{
+	float: right;
+	margin-top: 30px;
+}
+.nav ul{
+	list-style-type:none;
+}
+.nav li{
+	display: inline-block;
+}
+.nav a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 13px;
+	margin-right: 25px;
+}
+
+.logo{
+	margin-top:15px;
+}
+
+.header-text{
+	margin-top: 160px;
+}
+
+.title-text{
+	font-family: 'Playfair Display', serif;
+	font-size: 32px;
+	font-weight: 900;
+	text-align: center;
+	color: #fff;
+}
 
 
-body:hover  .mast1{
-	transform: rotateZ(-20deg);
+.title-text2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 24px;
+	padding: 0 5px;
+	text-align: center;
 }
-body:hover  .mast2{
-	transform: rotateZ(-10deg);
+
+.hr{
+	border: none;
+	height: 2px;
+	width: 50px;
+	margin: 26px auto 30px;
+	background-color:#00e0d0;
+	z-index: 2;
 }
-body:hover  .mast4{
-	transform: rotateZ(10deg);
+
+.button-learn{
+	display: flex;
+	width: 120px;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #00e0d0;
+	border: 2px solid #00e0d0;
+	border-radius: 2px;
+	
+	margin: 52px auto 0;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 14px;
 }
-body:hover  .mast5{
-	transform: rotateZ(20deg);
+
+.nav a:hover {
+	color: #00e0d0;
+}
+
+.dotnav {
+	display: flex;
+	justify-content: space-between;
+  width: 55px;
+  margin: 120px auto 0;
+}
+.dot {
+	border: 1px solid #00e0d0;
+	border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.dot:hover{
+	background-color:#00e0d0;
 }
 
 
-input[id="cc1"]:checked ~ .mast1{
-	transform:  rotateZ(-20deg) translateY(-30px);
+/* блок наша история */
+.our-story{
+	height: 402px;
+	width: 100%;
 }
-input[id="cc2"]:checked ~ .mast2{
-	transform: rotateZ(-10deg) translateY(-30px);
+
+.our-video{
+	height: 550px;
+	width: 100%;
+	background: url("img/NY.png") no-repeat center/cover;
+	position: relative;
 }
-input[id="cc3"]:checked ~ .mast3{
-	transform: translateY(-30px);
+.our-video:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height:100%;
+	background: url("img/NY_overlay.png") no-repeat center/cover;
+	z-index: -1;
 }
-input[id="cc4"]:checked ~ .mast4{
-	transform: rotateZ(10deg) translateY(-30px);
+.our-video .container{
+	position: absolute;
+	height: 100%;
+	 top:0;
+	 left: 61.2px;
+	 margin: 0 auto;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
 }
-input[id="cc5"]:checked ~ .mast5{
-	transform: rotateZ(20deg) translateY(-30px);
+
+.nylink{
+	display: block;
+	margin: auto;
+	width: 120px;
+	height: 120px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+.nyicon{
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	background: url("img/play.png") no-repeat center/cover;
+}
+
+
+
+.about_logo{
+	margin: 70px 0 0 65px;
+}
+
+.text-our-story{
+	margin-top: 70px;
+	float: right;
+	width: 560px;
+	height: 260px;
+}
+
+.button-learn-more{
+	display: flex;
+	width: 120px;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #00e0d0;
+	border: 2px solid #00e0d0;
+	border-radius: 2px;
+	
+	margin-top: 32px;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 14px;
+}
+
+.text1-ourstory{
+	text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 25px;
+}
+
+.text2-ourstory{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	margin-bottom: 30px;
+	line-height: 1.5;
+	text-align: justify;
+}
+.text3-ourstory{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: justify;
 }
